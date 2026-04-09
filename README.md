@@ -34,8 +34,9 @@ yolo-object-detection-project/
 ├── outputs/
 ├── requirements.txt
 └── README.md
+ 
+```
 
----
 ## Installation
 
 git clone https://github.com/pvughan/yolo-object-detection-project.git
@@ -47,6 +48,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 --- 
+
 ## Usage
 
 ### Detect Image
@@ -63,7 +65,6 @@ python src/analyze_results.py
 
 --- 
 ## Analysis
-## 📊 Analysis
 
 The analysis of detection results reveals clear patterns in object distribution and model behavior across different input types.
 
@@ -79,12 +80,16 @@ Overall, the analysis shows that while the model performs well on structured inp
 
 Additionally, the model tends to misclassify certain objects with similar shapes, indicating limitations in feature discrimination for fine-grained categories.
 
---- Future Improvements
+--- 
+
+## Future Improvements
+
 - Save bounding box coordinates for deeper analysis
 - Build a dashboard for visualization
 - Fine-tun YOLO model on custom datasets
 - Optimaize real-time inference performance
 
---
+---
+
 ## Note
 This project focuses on building a complete computer vision pipeline, including detection, data logging, and basic analysis.
