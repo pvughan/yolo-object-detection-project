@@ -86,10 +86,18 @@ Additionally, the model tends to misclassify certain objects with similar shapes
 
 - Save bounding box coordinates for deeper analysis
 - Build a dashboard for visualization
-- Fine-tun YOLO model on custom datasets
-- Optimaize real-time inference performance
+- Fine-tune YOLO model on custom datasets
+- Optimize real-time inference performance
 
 ---
 
 ## Note
 This project focuses on building a complete computer vision pipeline, including detection, data logging, and basic analysis.
+
+---
+## Demo
+
+### Image Detection Example
+
+The model detects multiple objects such as cars, buses, and persons in real-world traffic conditions.
+![Detection Result](outputs/image_detection/bogotatraffic.jpg)
